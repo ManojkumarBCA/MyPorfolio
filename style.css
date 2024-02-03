@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #9DB2BF;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #88AB8E;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: #8a8046 ;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -120,7 +120,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #F4CE14;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #1B4242;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -193,23 +193,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #D3D04F;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: #A4BE7B;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #0C2D57;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: rgb(7, 6, 6);
     background: none;
 }
 
@@ -224,7 +224,7 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 7px;
 }
 .about .about-content .right{
     width: 55%;
@@ -235,32 +235,32 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: #294B29;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: #065C6F;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(79, 25, 36);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
-    background: none;
+    color: #782225;
+    background: #BAD7DF;
 }
 
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #D9EDBF;
 }
 .services .title::before,
 .teams .title::before{
@@ -268,34 +268,44 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: #D9EDBF;
     content: "what i provide";
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
-    background: #222;
+    width: calc(100% - 20px);
+    background: #43766C;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 25px;
+    padding: 30px 29px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.9s ease;
+    border:#19261d 2px yellowgreen;
+    box-shadow: 7px 5px 4px  #BBE2EC;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: #0a4766;
+    /* transform: scaleX(0.9); */
+    /* transform: scaleY(0.9); */
+    /* transform: rotate(1deg); */
+    transform: rotate(-1deg);
+    /* transform: translateX(50px); */
+    /* transition: all 2s ease; */
+    transition: all 1.5s ease-in;
+    transition: all 1.5s ease-in-out;
 }
 .services .serv-content .card .box{
-    transition: all 0.3s ease;
+    transition: all 0.6s ease;
 }
 .services .serv-content .card:hover .box{
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: #092635;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color: #41a389;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -321,18 +331,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: rgb(25, 43, 32);
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(93, 14, 145);
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: rgb(18, 3, 6);
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -360,7 +370,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: #AAD9BB;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -383,7 +393,7 @@ section .title::after{
     content: "You can see below";
 }
 .Projects .carousel .card{
-    background: #222;
+    background: #47A992;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -391,7 +401,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .Projects .carousel .card:hover{
-    background: crimson;
+    background: #025464;
 }
 .Projects .carousel .card .box{
     display: flex;
@@ -413,7 +423,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #a5c37d;
     transition: all 0.3s ease;
 }
 .Projects .carousel .card:hover img{
@@ -429,7 +439,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid #402B3A!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -438,7 +448,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: #FAEF5D!important;
 }
 
 /* contact section styling */
@@ -469,7 +479,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #1D2B53;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -528,12 +538,12 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: rgb(28, 56, 35);
+  border: 2px solid rgb(6, 49, 6);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: rgb(0, 0, 0);
   background: none;
 }
 /* footer section styling */
